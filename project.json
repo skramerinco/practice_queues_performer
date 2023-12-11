@@ -7,6 +7,7 @@
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.Mail.Activities": "[1.21.1]",
     "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[23.10.6]"
   },
   "webServices": [],
@@ -42,7 +43,15 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1c4ee7bb-9d33-4b5e-9a79-bc83b13c54f2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "System1\\TestAddBankAccount.xaml"
+      }
+    ],
     "modernBehavior": true,
     "saveToCloud": false
   },
