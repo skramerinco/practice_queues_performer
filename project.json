@@ -4,8 +4,6 @@
   "description": "A performer process that gets each queue item and enters the data in ACME Bank web page. ",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.Mail.Activities": "[1.21.1]",
     "UiPath.System.Activities": "[23.10.3]",
     "UiPath.Testing.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[23.10.6]"
