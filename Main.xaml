@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1190.6666666666667,1049.3333333333333" sap2010:WorkflowViewState.IdRef="Main_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234,1049.3333333333333" sap2010:WorkflowViewState.IdRef="Main_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities.XamlIntegration</x:String>
@@ -96,7 +96,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="1200.6666666666667,984.6666666666666" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="1200.6666666666667,1024.6666666666667" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="NewTransaction" />
       <Variable x:TypeArguments="ui:QueueItem" Name="TransactionItem" />
@@ -108,20 +108,20 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">430,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,74.66666666666667</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">460,77.7 460,117.7</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">460,77.16666666666667 460,132.33333333333334</av:PointCollection>
         <x:Double x:Key="Width">1166.8000000000002</x:Double>
-        <x:Double x:Key="Height">947.6</x:Double>
+        <x:Double x:Key="Height">987.6</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID0</x:Reference>
     </Flowchart.StartNode>
     <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">360,204.5</av:Point>
+          <av:Point x:Key="ShapeLocation">360,132.33333333333334</av:Point>
           <av:Size x:Key="ShapeSize">200,115.33333333333333</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">460,318.9 460,348.9 480,348.9 480,376.4</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">460,247.66666666666669 460,277.6666666666667 480,277.6666666666667 480,376.4</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Sequence sap2010:Annotation.AnnotationText="Read transaction" DisplayName="Data Input" sap:VirtualizedContainerService.HintSize="200,115.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -176,170 +176,170 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <av:Point x:Key="ShapeLocation">416,376.4</av:Point>
               <av:Size x:Key="ShapeSize">128,86.66666666666667</av:Size>
-              <av:PointCollection x:Key="TrueConnector">416,420 310,420 310,498.4</av:PointCollection>
+              <av:PointCollection x:Key="TrueConnector">416,419.7333333333333 310,419.7333333333333 310,464.4</av:PointCollection>
               <av:PointCollection x:Key="FalseConnector">544,420 650,420 650,493.59999999999997</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <FlowDecision.True>
-            <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+            <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">210,498.4</av:Point>
-                  <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">310,583.0666666666666 310,643.6</av:PointCollection>
+                  <av:Point x:Key="ShapeLocation">210,464.4</av:Point>
+                  <av:Size x:Key="ShapeSize">200,54</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">310,518.4 310,558.4</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="472,1440" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                <Sequence.Variables>
-                  <Variable x:TypeArguments="x:Boolean" Name="blnSuccess" />
-                </Sequence.Variables>
+              <ui:LogMessage DisplayName="Log Current Transaction Number" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Processing transaction &quot; + Counter.ToString]">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="System1\System1_AddBankAccount.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="410,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="System1\System1_AddBankAccount.xaml">
-                  <ui:InvokeWorkflowFile.Arguments>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_FirstName">[TransactionItem.SpecificContent("First Name").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_LastName">[TransactionItem.SpecificContent("Last Name").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_CityStateZip">[TransactionItem.SpecificContent("City, State, Zip").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_Phone">[TransactionItem.SpecificContent("Phone").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_Email">[TransactionItem.SpecificContent("Email").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_Age">[TransactionItem.SpecificContent("Age").ToString]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_NumOfDependents">[TransactionItem.SpecificContent("Number of Dependents").ToString]</InArgument>
-                    <OutArgument x:TypeArguments="x:Boolean" x:Key="out_blnSuccess">[blnSuccess]</OutArgument>
-                  </ui:InvokeWorkflowFile.Arguments>
-                </ui:InvokeWorkflowFile>
-                <If Condition="[blnSuccess]" DisplayName="If adding account was successful" sap:VirtualizedContainerService.HintSize="410,1174" sap2010:WorkflowViewState.IdRef="If_2">
-                  <If.Then>
-                    <Sequence sap:VirtualizedContainerService.HintSize="376,468.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to success" ErrorType="Business" FolderPath="Learning1" sap:VirtualizedContainerService.HintSize="334,196.66666666666666" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[TransactionItem]">
-                        <ui:SetTransactionStatus.Analytics>
-                          <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-                        </ui:SetTransactionStatus.Analytics>
-                        <ui:SetTransactionStatus.Output>
-                          <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-                        </ui:SetTransactionStatus.Output>
-                      </ui:SetTransactionStatus>
-                      <ui:LogMessage DisplayName="Log Account Creation" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[String.Format(&quot;Created account for {0} {1}&quot;, TransactionItem.SpecificContent(&quot;First Name&quot;).ToString, TransactionItem.SpecificContent(&quot;Last Name&quot;).ToString)]" />
-                    </Sequence>
-                  </If.Then>
-                  <If.Else>
-                    <Sequence sap:VirtualizedContainerService.HintSize="376,521.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to failure" ErrorType="Business" FolderPath="Learning1" sap:VirtualizedContainerService.HintSize="334,249.33333333333334" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_2" Reason="Incorrect data was provided" Status="Failed" TransactionItem="[TransactionItem]">
-                        <ui:SetTransactionStatus.Analytics>
-                          <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-                        </ui:SetTransactionStatus.Analytics>
-                        <ui:SetTransactionStatus.Output>
-                          <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-                        </ui:SetTransactionStatus.Output>
-                      </ui:SetTransactionStatus>
-                      <ui:LogMessage DisplayName="Log Account Creation failure " sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[String.Format(&quot;Failed to created account for {0} {1}&quot;, TransactionItem.SpecificContent(&quot;First Name&quot;).ToString, TransactionItem.SpecificContent(&quot;Last Name&quot;).ToString)]" />
-                    </Sequence>
-                  </If.Else>
-                </If>
-              </Sequence>
+              </ui:LogMessage>
               <FlowStep.Next>
-                <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_3">
+                <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:Point x:Key="ShapeLocation">210,643.6</av:Point>
-                      <av:Size x:Key="ShapeSize">200,54</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">310,697.6 310,727.6 309.8666666666667,727.6 309.8666666666667,750.8</av:PointCollection>
+                      <av:Point x:Key="ShapeLocation">210,558.4</av:Point>
+                      <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">310,643.0666666666666 310,683.6</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:ShouldStop DisplayName="Should Stop" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="ShouldStop_1">
+                  <Sequence DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="200,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="blnSuccess" />
+                    </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                  </ui:ShouldStop>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="System1\System1_AddBankAccount.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="410,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="System1\System1_AddBankAccount.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_FirstName">[TransactionItem.SpecificContent("First Name").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_LastName">[TransactionItem.SpecificContent("Last Name").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_CityStateZip">[TransactionItem.SpecificContent("City, State, Zip").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_Phone">[TransactionItem.SpecificContent("Phone").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_Email">[TransactionItem.SpecificContent("Email").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_Age">[TransactionItem.SpecificContent("Age").ToString]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_NumOfDependents">[TransactionItem.SpecificContent("Number of Dependents").ToString]</InArgument>
+                        <OutArgument x:TypeArguments="x:Boolean" x:Key="out_blnSuccess">[blnSuccess]</OutArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                    <If Condition="[blnSuccess]" DisplayName="If adding account was successful" sap:VirtualizedContainerService.HintSize="410,1174" sap2010:WorkflowViewState.IdRef="If_2">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,468.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to success" ErrorType="Business" FolderPath="Learning1" sap:VirtualizedContainerService.HintSize="334,196.66666666666666" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[TransactionItem]">
+                            <ui:SetTransactionStatus.Analytics>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                            </ui:SetTransactionStatus.Analytics>
+                            <ui:SetTransactionStatus.Output>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                            </ui:SetTransactionStatus.Output>
+                          </ui:SetTransactionStatus>
+                          <ui:LogMessage DisplayName="Log Account Creation" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[String.Format(&quot;Created account for {0} {1}&quot;, TransactionItem.SpecificContent(&quot;First Name&quot;).ToString, TransactionItem.SpecificContent(&quot;Last Name&quot;).ToString)]" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,521.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to failure" ErrorType="Business" FolderPath="Learning1" sap:VirtualizedContainerService.HintSize="334,249.33333333333334" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_2" Reason="Incorrect data was provided" Status="Failed" TransactionItem="[TransactionItem]">
+                            <ui:SetTransactionStatus.Analytics>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                            </ui:SetTransactionStatus.Analytics>
+                            <ui:SetTransactionStatus.Output>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                            </ui:SetTransactionStatus.Output>
+                          </ui:SetTransactionStatus>
+                          <ui:LogMessage DisplayName="Log Account Creation failure " sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[String.Format(&quot;Failed to created account for {0} {1}&quot;, TransactionItem.SpecificContent(&quot;First Name&quot;).ToString, TransactionItem.SpecificContent(&quot;Last Name&quot;).ToString)]" />
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
                   <FlowStep.Next>
-                    <FlowDecision x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="" Condition="[ShouldStop]" DisplayName="Stop?" sap:VirtualizedContainerService.HintSize="126,117.33333333333333" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+                    <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <av:Point x:Key="ShapeLocation">247.2,750.8</av:Point>
-                          <av:Size x:Key="ShapeSize">126,117.33333333333333</av:Size>
-                          <av:PointCollection x:Key="FalseConnector">373.2,809.4666666666666 820.2,809.4666666666666 820.2,384.5333333333333</av:PointCollection>
-                          <av:PointCollection x:Key="TrueConnector">247.2,810 100,810 100,893.6</av:PointCollection>
-                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                          <av:Point x:Key="ShapeLocation">210,683.6</av:Point>
+                          <av:Size x:Key="ShapeSize">200,54</av:Size>
+                          <av:PointCollection x:Key="ConnectorLocation">310,737.6 310,767.6 310.2,767.6 310.2,800.8</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <FlowDecision.True>
-                        <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_4">
+                      <ui:ShouldStop DisplayName="Should Stop" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="ShouldStop_1">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:ShouldStop>
+                      <FlowStep.Next>
+                        <FlowDecision x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="" Condition="[ShouldStop]" DisplayName="Stop?" sap:VirtualizedContainerService.HintSize="126,117.33333333333333" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:Point x:Key="ShapeLocation">0,893.6</av:Point>
-                              <av:Size x:Key="ShapeSize">200,54</av:Size>
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <av:Point x:Key="ShapeLocation">247.2,800.8</av:Point>
+                              <av:Size x:Key="ShapeSize">126,117.33333333333333</av:Size>
+                              <av:PointCollection x:Key="FalseConnector">373.2,859.4666666666666 820.2,859.4666666666666 820.2,384.5333333333333</av:PointCollection>
+                              <av:PointCollection x:Key="TrueConnector">247.2,859.4666666666666 100,859.4666666666666 100,933.6</av:PointCollection>
+                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Process Stopped" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Process Stopped&quot;]">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:LogMessage>
-                        </FlowStep>
-                      </FlowDecision.True>
-                      <FlowDecision.False>
-                        <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_5">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:Point x:Key="ShapeLocation">603.2,299.2</av:Point>
-                              <av:Size x:Key="ShapeSize">434,85.33333333333333</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">820,299.2 820,144.1 560,144.1</av:PointCollection>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <Assign DisplayName="Assign increment counter" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
-                            <Assign.To>
-                              <OutArgument x:TypeArguments="x:Int32">[Counter]</OutArgument>
-                            </Assign.To>
-                            <Assign.Value>
-                              <InArgument x:TypeArguments="x:Int32">[Counter + 1]</InArgument>
-                            </Assign.Value>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </Assign>
-                          <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+                          <FlowDecision.True>
+                            <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_4">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <av:Point x:Key="ShapeLocation">360,117.7</av:Point>
+                                  <av:Point x:Key="ShapeLocation">0,933.6</av:Point>
                                   <av:Size x:Key="ShapeSize">200,54</av:Size>
-                                  <av:PointCollection x:Key="ConnectorLocation">460,171.7 460,204.5</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Current Transaction Number" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Processing transaction &quot; + Counter.ToString]">
+                              <ui:LogMessage DisplayName="Log Process Stopped" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Process Stopped&quot;]">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:LogMessage>
+                            </FlowStep>
+                          </FlowDecision.True>
+                          <FlowDecision.False>
+                            <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <av:Point x:Key="ShapeLocation">603.2,299.2</av:Point>
+                                  <av:Size x:Key="ShapeSize">434,85.33333333333333</av:Size>
+                                  <av:PointCollection x:Key="ConnectorLocation">820.2,299.2 820.2,190 560,190</av:PointCollection>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign DisplayName="Assign increment counter" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:Int32">[Counter]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:Int32">[Counter + 1]</InArgument>
+                                </Assign.Value>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Assign>
                               <FlowStep.Next>
                                 <x:Reference>__ReferenceID0</x:Reference>
                               </FlowStep.Next>
                             </FlowStep>
-                          </FlowStep.Next>
-                        </FlowStep>
-                      </FlowDecision.False>
-                    </FlowDecision>
+                          </FlowDecision.False>
+                        </FlowDecision>
+                      </FlowStep.Next>
+                    </FlowStep>
                   </FlowStep.Next>
                 </FlowStep>
               </FlowStep.Next>
